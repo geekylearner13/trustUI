@@ -45,3 +45,11 @@ function scrollTitle() {
 }
 
 scrollTitle();
+window.addEventListener("scroll", function() {
+    var navbar = document.querySelector("header");
+    if (window.scrollY > 50) { // Adjust scroll threshold as needed
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
