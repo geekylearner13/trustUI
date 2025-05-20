@@ -660,6 +660,70 @@ button{
 }
 
 
+/* contact-form */
+.contact-form .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            /* max-width: 800px; */
+            margin: auto;
+            padding: 20px;
+        }
+        .contact-form .container .image-box {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            border-radius: 0px 50px 50px 0px; /* Curved right border */
+        }
+        .contact-form .container .image-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+         .contact-form .container .image-box:hover {
+            transform: scale(1.05); /* Slight enlargement */
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+            transition: ease-in-out 0.6s;
+        }
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .form-box {
+            flex: 1;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+        .form-box input, .form-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-box button {
+            background: #007BFF;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-box button:hover {
+            background: #0056b3;
+        }
+
+
 /* Footer */
 /* section {
     padding: 60px 0;
