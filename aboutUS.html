@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahmdeo Sah Memorial Trust</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f40301e29.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
+    <link rel="manifest" href="favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="brand"><img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt=""> <h3>brahamdeo sah <br><span>memorial trust</span></h3></a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+            <a href="index.html">HOME</a>
+            <a href="">OUR WORK</a>
+            <a href="">GET INVOLVED</a>
+            <a href="">ABOUT US</a>   
+            <a href="">TEAM</a>
+            <a href="">GALA</a>
+            <button class="button-57" onclick="openPopup()" role="button"><span class="text">Donate <i class="fa-solid fa-heart"></i></span><span>Help Others</span></button>
+            <!-- Overlay & Popup -->
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <!-- Left Section: Trust Info -->
+            <div class="left-section">
+                <span class="close-btn" onclick="closePopup()"><i class="fa-solid fa-circle-xmark"></i></span>
+                <img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt="Trust Image"> <!-- Add Trust Image -->
+                <h3>Brahmdeo Sah Memorial Trust</h3>
+                <p>Your generous donations help us support those in need. Every contribution brings hope and change.</p>
+            </div>
+
+            <!-- Right Section: Form -->
+            <div class="right-section">
+                <h3>Enter Donation Details</h3>
+                <input type="text" id="name" class="input-field" placeholder="Your Name (Optional)">
+                <input type="email" id="email" class="input-field" placeholder="Your Email (Optional)">
+                <input type="tel" id="phone" class="input-field" placeholder="Your Phone (Optional)">
+                <input type="number" id="amount" class="input-field" placeholder="Enter Amount (INR)">
+                <button class="donate-btn" onclick="donate()">Donate Now</button>
+            </div>
+        </div>
+    </div>     
+        </div>
+        </div>
+    </header>
+    <section class="home">
+        <img class="image-slide active"src="https://images.unsplash.com/photo-1651372381086-9861c9c81db5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <div class="content active">
+            <h1>Who We <br><span>Are</span> </h1>
+        <p>Brahmdeo Sah Memorial Trust is built on the foundation of compassion, hope, and a commitment to making a difference. We believe in empowering communities through education, healthcare, and social initiatives that create lasting impact. Our journey is driven by the values of kindness, inclusion, and service—ensuring that every individual has the support they need to thrive. Together, with the power of generosity and collective action, we strive to build a future where humanity flourishes. Join us in transforming lives and spreading the light of change!</p>
+            <!-- <button class="button-52">Learn More</button> -->
+            
+        </div>
+        <div class="media-icons">
+            <a href="https://www.facebook.com/profile.php?id=61552250626600&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/brahamdeosahmemorialtrust?igsh=MTl1ZHl0ejc1djlmaQ=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </section>
+    
+    <section class="about-page">
+        <div class="aboutTextBox">
+            <h2>A mission. <br>A movement. <br>A force for good.</h2>
+            <p>Our mission is to break the cycle of poverty and inequality through education, healthcare, and social service—empowering individuals, transforming communities, and creating lasting impact.</p>
+
+        </div>
+        <hr>
+        <div class="aboutMision">
+            <h2>What We Do</h2>
+            <p>Education, empowerment, and service are at the core of our mission. Through community-driven initiatives, we provide access to quality education, healthcare, and social support—breaking barriers and building brighter futures for those in need. By uniting people through service and learning, we create lasting change and foster a more just and equitable society.</p>
+            
+
+        </div>
+        </section>
+        <div class="value-content">
+        <div class="values">
+            <h3>Our Core Values:</h3>
+            <div class="values-content">
+                <div class="values-items">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h4>Compassion:</h4>
+                    <p>We believe in helping those in need with kindness and empathy.</p>
+                </div>
+                <div class="values-items">
+                    <i class="fa-regular fa-building"></i>
+                    <h4>Integrity:</h4>
+                    <p>Our actions are guided by honesty and ethical principles.</p>
+                </div>
+                <div class="values-items">
+                    <i class="fa-solid fa-shapes"></i>
+                    <h4>Empowerment:</h4>
+                    <p>We strive to uplift individuals by providing them with resources and opportunities</p>
+                </div>
+                <div class="values-items">
+                    <i class="fa-solid fa-fire"></i>
+                    <h4>Commitment:</h4>
+                    <p>We are dedicated to creating meaningful social impact.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-workplace">
+        <div class="about-places">
+        <div class="about-info">
+            <div class="infoText">
+                <h2>BSMT West Bengal</h2>
+                <p>Our Service Learning Programs in West Bengal equip students and individuals with opportunities to transform their communities through education, healthcare, and empowerment initiatives. By fostering leadership and social responsibility, we enable participants to create lasting impact—whether by promoting access to quality education, strengthening healthcare outreach, or driving self-sufficiency among underserved groups.</p>
+        
+            </div>
+            <div class="info-img">
+                <img src="assets/healthCare.jpeg" alt="">
+            </div>
+        </div>
+        <div class=" about-jh about-info">
+            <div class="info-img">
+                <img src="assets/community.jpg" alt="">
+            </div>
+            <div id="info-text" class="infoText">
+                <h2>BSMT Jharkhand</h2>
+                <p>We empower villages in economically disadvantaged areas of Jharkhand to take the lead in bringing education, healthcare, and empowerment to their communities. Through our ongoing efforts, we are establishing schools, healthcare centers, and vocational training programs to create sustainable opportunities. Our initiatives have already impacted numerous districts, helping communities shape a brighter future for generations to come.</p>
+        
+            </div>
+            
+        </div>
+        </div>
+          
+    </div>
+    <section class="about-partners">
+        <h2>Together for a Better Tomorrow</h2>
+        <div class="partner-logo">
+            <img src="assets/clinic-logo.jpeg" alt="">
+        </div>
+    </section>
+    
+
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                        <div class="logo-widget footer-widget">
+                            <figure class="logo-box"><a href="#"><img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt=""></a></figure>
+                            <div class="text">
+                                <p>Brahmdeo Sah Memorial Trust empowers individuals through education, healthcare, and self-sufficiency. We believe knowledge drives progress, health strengthens society, and empowerment builds resilience. Our initiatives inspire change, uplift communities, and promote sustainable development. Together, we can shape a better future.</p>
+                            </div>
+                            <ul class="footer-social">
+                                <li><a href="https://www.facebook.com/people/Brahamdeo-Sah-Memorial-Trust/61552250626600/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/brahamdeosahmemorialtrust?igsh=MTl1ZHl0ejc1djlmaQ=="><i class="fa-brands fa-instagram"></i></a></li>
+                                <!-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="footer-title">Quick Links</div>
+                            <ul class="list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Get Involved</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Gala</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+                        <div class="contact-widget footer-widget">
+                            <div class="footer-title">Contacts</div>
+                            <div class="text contact-details">
+                                <p><i class="fa-solid fa-location-dot"></i>C/11/1 Tower - 2, Lake View Housing Complex, Santragachi, Howrah - 711 104</p>
+                                <p><i class="fa-solid fa-phone"></i>+91 3335565651</p>
+                                <p><i class="fa-solid fa-mobile"></i>+91 9835773227</p>
+                                <p><i class="fa-solid fa-envelope"></i>bdsmt2022@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- main-footer end -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                    <div class="copyright"><a href="#">Brahmdeo Sah Memorial Trust</a> &copy; 2025 All Right Reserved</div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                    <ul class="footer-nav">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>

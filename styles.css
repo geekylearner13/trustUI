@@ -897,3 +897,249 @@ ul {
 .logo-box img {
     max-width: 220px;
 }
+
+
+
+/* AboutUs.html */
+.about-page .aboutTextBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3.5em 0;
+}
+.about-page .aboutTextBox h2 {
+    font-weight: 600;
+    
+}
+.about-page .aboutTextBox p{
+    width: 70%;
+    font-size: 1.3rem;
+    font-family: Josefin Sans;
+}
+.about-page .aboutMision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+hr{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.about-page .aboutMision h2{
+    margin-top: 60px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about-page .aboutMision p{
+    width: 70%;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+/* .about-places{
+    padding: 5em 0;
+} */
+.about-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3em 0;
+}
+.about-info .infoText h2{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.about-info .info-img img{
+    height: 400px;
+    width: 640px;
+    object-fit: cover;
+}
+.about-info .infoText p{
+    width: 95%;
+    line-height: 1.88;
+    font-size: 1.2rem;
+}
+.about-jh{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 7em;
+    margin-top: 2em;
+}
+#info-text{
+    margin-left: 30px;
+}
+.about-partners h2{
+    text-align: center;
+    font-weight: 700;
+}
+.partner-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.partner-logo img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+.values{
+    padding: 150px 150px;
+}
+.about-workplace{
+    padding: 115px 150px;
+}
+@media (max-width:1040px){
+    .value-content{
+        margin-top: 0px;
+        padding-top: 50px;
+    }
+    .values{
+        flex-direction: column;
+        padding: 0 3em;
+    }
+    .values-content{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .about-workplace {
+    padding: 20px 30px;
+    }
+    .about-jh{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .about-info .infoText h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    }
+    #info-text{
+        margin-left: 0;
+    }
+    .about-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-info .info-img img {
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    }
+    .about-page .aboutTextBox p {
+        width: 95%;
+        font-size: 1.15rem;
+        margin-left: 15px;
+    }
+    .about-page .aboutMision p {
+        width: 95%;
+    margin-top: 20px;
+    font-size: 1.26rem;
+    line-height: 1.8;
+}
+}
+
+
+/* Overlay Fade-in */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Popup Scale Animation */
+.popup {
+    display: none;
+    width: 50%;
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+        /* Left Section */
+        .left-section {
+            width: 50%;
+            padding: 10px;
+            text-align: left;
+        }
+        .left-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        /* Right Section */
+        .right-section {
+            width: 50%;
+            padding: 10px;
+            text-align: left;
+        }
+        .input-field {
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .donate-btn {
+            background: #3399cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+        /* Close Button */
+        .close-btn {
+            position: absolute;
+            top: 10px; right: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .value-content{
+            background-color: gainsboro;
+        }
+
+        .values{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* padding: 0 3em; */
+            
+            
+        }
+        .values h3{
+            font-family: Outfit;
+            font-size: 2em;
+            font-weight: 600;
+        }
+        .values-content{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        .values-items{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            padding: 0 1.3em;
+        }
+    .values-items i{
+        font-size: 3em;
+        color: #2BA2A1;
+        padding: 1.3rem;
+    }

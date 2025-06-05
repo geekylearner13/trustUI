@@ -44,10 +44,34 @@
             <div class="navigation-items">
             <a href="">OUR WORK</a>
             <a href="">GET INVOLVED</a>
-            <a href="">ABOUT US</a>   
+            <a href="aboutUS.html">ABOUT US</a>   
             <a href="">TEAM</a>
             <a href="">GALA</a>
-            <button class="button-57" role="button"><span class="text">Donate <i class="fa-solid fa-heart"></i></span><span>Help Others</span></button>     
+            <button class="button-57" onclick="openPopup()" role="button"><span class="text">Donate <i class="fa-solid fa-heart"></i></span><span>Help Others</span></button>     
+            
+
+    <!-- Overlay & Popup -->
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <!-- Left Section: Trust Info -->
+            <div class="left-section">
+                <span class="close-btn" onclick="closePopup()"><i class="fa-solid fa-circle-xmark"></i></span>
+                <img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt="Trust Image"> <!-- Add Trust Image -->
+                <h3>Brahmdeo Sah Memorial Trust</h3>
+                <p>Your generous donations help us support those in need. Every contribution brings hope and change.</p>
+            </div>
+
+            <!-- Right Section: Form -->
+            <div class="right-section">
+                <h3>Enter Donation Details</h3>
+                <input type="text" id="name" class="input-field" placeholder="Your Name (Optional)">
+                <input type="email" id="email" class="input-field" placeholder="Your Email (Optional)">
+                <input type="tel" id="phone" class="input-field" placeholder="Your Phone (Optional)">
+                <input type="number" id="amount" class="input-field" placeholder="Enter Amount (INR)">
+                <button class="donate-btn" onclick="donate()">Donate Now</button>
+            </div>
+        </div>
+    </div>
         </div>
         </div>
     </header>
@@ -105,7 +129,7 @@
     </section>
     <section>
         <div class="aboutUs">
-            <img src="https://scontent.fpat2-3.fna.fbcdn.net/v/t39.30808-1/415270630_122134345316075020_345983901273846993_n.jpg?stp=c0.0.1163.1163a_dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=DixeDJwTb14Q7kNvwGDsVWq&_nc_oc=Adlazg953SxFI8cKd5vHAeX4gJBmQS7ib4IY8RPqlzwMMp7DOD175-psyFc2PBdFLUrj9gOSjSZLrzI0s_jl9HLb&_nc_zt=24&_nc_ht=scontent.fpat2-3.fna&_nc_gid=UCQISKPITLIAXR4QCtGZfA&oh=00_AfJaGGUqQhEqOA5hyaH3qbEhXPtzAzWMTj58QCe4s2V3NQ&oe=682EC449" alt="">
+            <img src="https://scontent.fdbd1-3.fna.fbcdn.net/v/t39.30808-1/415270630_122134345316075020_345983901273846993_n.jpg?stp=c0.0.1163.1163a_dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Sq6hpCJffyEQ7kNvwHfA7at&_nc_oc=AdkqG_X8sAqJzTCnweujGUSOJJNKcSVj1grHwUc-4y7RerS7j_QOH2w58ox01A_exve2dK_PTGh8EXvP1Tb78Xb0&_nc_zt=24&_nc_ht=scontent.fdbd1-3.fna&_nc_gid=E9i7yw9dricWd41l7kWCKQ&oh=00_AfJPdJpjvWPRjR0C53tgyW1ec1II5xUFfEAhVRspjAqdBg&oe=68433389" alt="">
             <div class="about-content">
                 <h1>Brahmdeo Sah Memorial Trust</h1>
                 <h3>Honoring a Legacy, Empowering Lives</h3>
@@ -269,6 +293,7 @@
             </div>
         </div>
     </div>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 
