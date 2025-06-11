@@ -91,7 +91,7 @@ function closePopup() {
             }
 
             var options = {
-                "key": "YOUR_RAZORPAY_KEY", // Replace with your Razorpay API key
+                "key": "rzp_test_qR7WCfWyGVdGiJ", // Replace with your Razorpay API key
                 "amount": userAmount * 100, // Convert INR to paise
                 "currency": "INR",
                 "name": "Brahmdeo Sah Memorial Trust",
