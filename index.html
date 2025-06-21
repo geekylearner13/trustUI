@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brahmdeo Shah Memorial Trust</title>
+    <title>Brahmadeo Shah Memorial Trust</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Bootstrap -->
@@ -11,6 +11,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
@@ -38,45 +39,20 @@
 </head>
 <body>
     <header>
-        <a href="#" class="brand"><img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt=""> <h3>brahamdeo sah <br><span>memorial trust</span></h3></a>
+        <a href="#" class="brand"><img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt=""> <h3>Brahamdeo sah <br><span>memorial trust</span></h3></a>
         <div class="menu-btn"></div>
         <div class="navigation">
             <div class="navigation-items">
-            <a href="">OUR WORK</a>
+            <a href="ourWork.html">OUR WORK</a>
             <a href="getInvolved.html">GET INVOLVED</a>
             <a href="aboutUS.html">ABOUT US</a>   
-            <a href="">TEAM</a>
-            <a href="">GALA</a>
-            <button class="button-57" onclick="openPopup()" role="button"><span class="text">Donate <i class="fa-solid fa-heart"></i></span><span>Help Others</span></button>     
-            
-
-    <!-- Overlay & Popup -->
-    <div class="overlay" id="overlay">
-        <div class="popup">
-            <!-- Left Section: Trust Info -->
-            <div class="left-section">
-                <span class="close-btn" onclick="closePopup()"><i class="fa-solid fa-circle-xmark"></i></span>
-                <img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt="Trust Image"> <!-- Add Trust Image -->
-                <h3>Brahmdeo Sah Memorial Trust</h3>
-                <p>Your generous donations help us support those in need. Every contribution brings hope and change.</p>
-            </div>
-
-            <!-- Right Section: Form -->
-            <div class="right-section">
-                <h3>Enter Donation Details</h3>
-                <input type="text" id="name" class="input-field" placeholder="Your Name (Optional)">
-                <input type="email" id="email" class="input-field" placeholder="Your Email (Optional)">
-                <input type="tel" id="phone" class="input-field" placeholder="Your Phone (Optional)">
-                <input type="number" id="amount" class="input-field" placeholder="Enter Amount (INR)">
-                <button class="donate-btn" onclick="donate()">Donate Now</button>
-            </div>
-        </div>
-    </div>
+            <a href="donate.html">TEAM</a>
+            <!-- <a href="">GALA</a> -->
+            <button class="button-57" onclick="redirect()" role="button"><span class="text">Donate <i class="fa-solid fa-heart"></i></span><span>Help Others</span></button>     
         </div>
         </div>
     </header>
     <section class="home">
-        <!-- <video class="video-slider" src="assets/DIOR Fashion Film 2020 ｜ Directed by VIVIENNE & TAMAS.mp4" autoplay muted loop></video> -->
         <img class="image-slide active" src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
         <img class="image-slide"src="https://images.unsplash.com/photo-1574758324765-a29c77fb9c91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
         <img class="image-slide"src="https://images.unsplash.com/photo-1651372381086-9861c9c81db5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
@@ -88,7 +64,7 @@
         <div class="content active">
             <h1>Heal. Educate. <br><span>Empower.</span> </h1>
             <p>We believe in the power of compassion, knowledge, and resilience. Through dedicated efforts in healthcare, education, and empowerment, we are committed to creating a brighter, more inclusive future. Every action we take is a step toward positive change, fostering hope, strength, and opportunity for those in need.</p>
-            <button class="button-52">Learn More</button>
+            <button class="button-52" onclick="window.location.href='aboutUS.html';">Learn More</button>
         </div>
         <div class="content">
             <h1>Knowledge is<br><span>Power</span> </h1>
@@ -115,7 +91,7 @@
         </div>
         <div class="media-icons">
             <a href="https://www.facebook.com/profile.php?id=61552250626600&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/brahamdeosahmemorialtrust?igsh=MTl1ZHl0ejc1djlmaQ=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/Brahamdeosahmemorialtrust?igsh=MTl1ZHl0ejc1djlmaQ=="><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
         <div class="slider-navigation">
@@ -129,19 +105,40 @@
     </section>
     <section>
         <div class="aboutUs">
-            <img src="https://scontent.fdbd1-3.fna.fbcdn.net/v/t39.30808-1/415270630_122134345316075020_345983901273846993_n.jpg?stp=c0.0.1163.1163a_dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Sq6hpCJffyEQ7kNvwHfA7at&_nc_oc=AdkqG_X8sAqJzTCnweujGUSOJJNKcSVj1grHwUc-4y7RerS7j_QOH2w58ox01A_exve2dK_PTGh8EXvP1Tb78Xb0&_nc_zt=24&_nc_ht=scontent.fdbd1-3.fna&_nc_gid=E9i7yw9dricWd41l7kWCKQ&oh=00_AfJPdJpjvWPRjR0C53tgyW1ec1II5xUFfEAhVRspjAqdBg&oe=68433389" alt="">
+            <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="https://scontent.fpat2-3.fna.fbcdn.net/v/t39.30808-6/415270630_122134345316075020_345983901273846993_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=wU4P1q8F7DIQ7kNvwHZ4cxb&_nc_oc=Adli7sqXD6JArdql2YSkcb88nC9FKsUP3EG0Htq1s1FeimPrEmN1cJ26uJfM1lTdIv2fJpX8VVwZJejYDSF5JBK1&_nc_zt=23&_nc_ht=scontent.fpat2-3.fna&_nc_gid=iMHP-rcvA0NrwnOHjJ5JTA&oh=00_AfMjEYv6YJ1nQ13tPx8fTs8HvbRnGNsgoP6qkljVbGa2RQ&oe=6855FFF9" alt="">
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Brahamdeo Sah</h3>
+                    <!-- <span class="post">Member</span>
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                    </ul> -->
+                </div>
+                
+            </div>
+        </div>
+            <!-- <div class="imgh">
+                <img src="https://scontent.fdbd1-3.fna.fbcdn.net/v/t39.30808-1/415270630_122134345316075020_345983901273846993_n.jpg?stp=c0.0.1163.1163a_dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Sq6hpCJffyEQ7kNvwHfA7at&_nc_oc=AdkqG_X8sAqJzTCnweujGUSOJJNKcSVj1grHwUc-4y7RerS7j_QOH2w58ox01A_exve2dK_PTGh8EXvP1Tb78Xb0&_nc_zt=24&_nc_ht=scontent.fdbd1-3.fna&_nc_gid=E9i7yw9dricWd41l7kWCKQ&oh=00_AfJPdJpjvWPRjR0C53tgyW1ec1II5xUFfEAhVRspjAqdBg&oe=68433389" alt="">
+            </div> -->
+            
             <div class="about-content">
-                <h1>Brahmdeo Sah Memorial Trust</h1>
+                <h1>Brahamdeo Sah Memorial Trust</h1>
                 <h3>Honoring a Legacy, Empowering Lives</h3>
-                <p>Brahmdeo Sah Memorial Trust was founded in loving memory of Brahmdeo Sah, a visionary whose life was dedicated to compassion, service, and uplifting those in need. His unwavering commitment to social welfare, education, and community development continues to inspire generations.</p>
+                <p>Brahamdeo Sah Memorial Trust was founded in loving memory of Brahamdeo Sah, a visionary whose life was dedicated to compassion, service, and uplifting those in need. His unwavering commitment to social welfare, education, and community development continues to inspire generations.</p>
             </div>
         </div>
         <div class="trust-mission">
-            <p>Brahmdeo Sah Memorial Trust is a beacon of hope. Since 2022, we have been empowering communities through healthcare, education, employment, and social service—building a brighter and more inclusive future for all.</p>
+            <p>Brahamdeo Sah Memorial Trust is a beacon of hope. Since 2022, we have been empowering communities through healthcare, education, employment, and social service—building a brighter and more inclusive future for all.</p>
             <p style="font-weight: 400; margin-top: 60px;">We mobilize communities to create opportunities in healthcare, education, employment, and social service. Through collective action, we uplift lives, strengthen communities, and build a future rooted in dignity and empowerment.</p>
         </div>
         <div class="team">
-            <h2>The Visionaries Behind Brahmdeo Sah Memorial Trust</h2>
+            <h2>The Visionaries Behind Brahamdeo Sah Memorial Trust</h2>
             <div class="container">
     <div class="row">
         <div class="col-md-4 col-sm-6">
@@ -154,16 +151,16 @@
                     <span class="post">Member</span>
                     <ul class="social">
                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li> -->
                     </ul>
                 </div>
                 
             </div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <!-- <div class="col-md-4 col-sm-6">
             <div class="our-team">
                 <div class="pic">
                     <img src="assets/socialHelp.jpeg" alt="">
@@ -179,21 +176,21 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
  
         <div class="col-md-4 col-sm-6">
             <div class="our-team">
                 <div class="pic">
-                    <img src="assets/socialHelp.jpeg" alt="">
+                    <img src="assets/abhay_profile.jpeg" alt="">
                 </div>
                 <div class="team-content">
-                    <h3 class="title">kristina</h3>
+                    <h3 class="title">Dr. Abhay Kumar</h3>
                     <span class="post">Member</span>
                     <ul class="social">
                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                        <li><a href="https://www.instagram.com/robodockolkata?igsh=c253OW5ueHFrZjln"><i class="fa-brands fa-instagram"></i></a></li>
+                        <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li> -->
                     </ul>
                 </div>
             </div>
@@ -288,33 +285,61 @@
         <h2>Recent Events</h2>
         <hr>
         <div class="parent">
-    <div class="div1">
-        <div class="event-img">
-            <img src="assets/Brahamdeo Sah Memorial Trust.png" alt="">
+    <div class="div1 events">
+        
+        <div class="event-img card-img">
+            <img src="assets/hounoring_cleaning_workers.jpeg" alt="">
+            <!-- <div class="image-overlay"></div> -->
+        </div>
+        <div class="card-content">
+            <h3 class="card-title">Honouring our Sanitation Warriors</h3>
+        <p class="card-description"><i class="fa-solid fa-calendar-week"></i> 15June, 2025</p>
         </div>
         
-        <h3>Honouring our Sanitation Warriors</h3>
-        <p><i class="fa-solid fa-calendar-week"></i> 15June, 2025</p>
     </div>
     <div class="div2 events">
-        <img src="assets/awareness.jpeg" alt="">
-        <h3>Special Discussion on Menopause & It's Impact</h3>
-        <p><i class="fa-solid fa-calendar-week"></i> 20 May, 2025</p>
+        <div class="card-image">
+            <img src="assets/awareness.jpeg" alt="">
+            <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+            <h3 class="card-title">Special Discussion on Menopause & It's Impact</h3>
+        <p class="card-description"><i class="fa-solid fa-calendar-week"></i> 20 May, 2025</p>
+        </div>
+        
     </div>
     <div class="div3 events">
-        <img src="assets/healthService.jpeg" alt="">
-        <h3>Free PSA Screening & Uroligical Blood Test Camp</h3>
-        <p><i class="fa-solid fa-calendar-week"></i> 15 Feb, 2025</p>
+         <div class="card-image">
+            <img src="assets/healthService.jpeg" alt="">
+            <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+            <h3 class="card-title">Free PSA Screening & Uroligical Blood Test Camp</h3>
+        <p class="card-description"><i class="fa-solid fa-calendar-week"></i> 15 Feb, 2025</p>
+        </div>
+        
     </div>
     <div class="div4 events">
-        <img src="assets/trust_work.jpeg" alt="">
-        <h3>Free Urology Camp</h3>
-        <p><i class="fa-solid fa-calendar-week"></i> 2 Feb, 2025</p>
+        <div class="card-image">
+            <img src="assets/trust_work.jpeg" alt="">
+            <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+            <h3 class="card-title">Free Urology Camp</h3>
+        <p class="card-description"><i class="fa-solid fa-calendar-week"></i> 2 Feb, 2025</p>
+        </div>
+        
     </div>
     <div class="div5 events">
-        <img src="assets/img.jpeg" alt="">
-        <h3>Distribution of Warm Clothes</h3>
-        <p><i class="fa-solid fa-calendar-week"></i> 26 Jan, 2025</p>
+        <div class="card-image">
+            <img src="assets/img.jpeg" alt="">
+            <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+            <h3 class="card-title">Distribution of Warm Clothes</h3>
+        <p class="card-description"><i class="fa-solid fa-calendar-week"></i> 26 Jan, 2025</p>
+        </div>
+        
     </div>
 </div>
     </div>
@@ -333,11 +358,11 @@
         </div>
         <div class="form-box">
             <h2>Contact Us</h2>
-            <form action="#" method="POST">
+            <form action="mailto:bdsmt2022@gmail.com" method="post" enctype="text/plain">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
+                <button type="submit" mail>Send Message</button>
             </form>
         </div>
     </div>
@@ -350,12 +375,12 @@
                         <div class="logo-widget footer-widget">
                             <figure class="logo-box"><a href="#"><img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt=""></a></figure>
                             <div class="text">
-                                <p>Brahmdeo Sah Memorial Trust empowers individuals through education, healthcare, and self-sufficiency. We believe knowledge drives progress, health strengthens society, and empowerment builds resilience. Our initiatives inspire change, uplift communities, and promote sustainable development. Together, we can shape a better future.</p>
+                                <p>Brahamdeo Sah Memorial Trust empowers individuals through education, healthcare, and self-sufficiency. We believe knowledge drives progress, health strengthens society, and empowerment builds resilience. Our initiatives inspire change, uplift communities, and promote sustainable development. Together, we can shape a better future.</p>
                             </div>
                             <ul class="footer-social">
                                 <li><a href="https://www.facebook.com/people/Brahamdeo-Sah-Memorial-Trust/61552250626600/"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.instagram.com/brahamdeosahmemorialtrust?igsh=MTl1ZHl0ejc1djlmaQ=="><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/Brahamdeosahmemorialtrust?igsh=MTl1ZHl0ejc1djlmaQ=="><i class="fa-brands fa-instagram"></i></a></li>
                                 <!-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> -->
                             </ul>
                         </div>
@@ -365,8 +390,8 @@
                             <div class="footer-title">Quick Links</div>
                             <ul class="list">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">Get Involved</a></li>
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="getInvolved.html">Get Involved</a></li>
+                                <li><a href="aboutUS.html">About Us</a></li>
                                 <li><a href="#">Team</a></li>
                                 <li><a href="#">Gala</a></li>
                             </ul>
@@ -392,12 +417,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 column">
-                    <div class="copyright"><a href="#">Brahmdeo Sah Memorial Trust</a> &copy; 2025 All Right Reserved</div>
+                    <div class="copyright"><a href="#">Brahamdeo Sah Memorial Trust</a> &copy; 2025 All Right Reserved</div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 column">
                     <ul class="footer-nav">
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <!-- <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li> -->
                     </ul>
                 </div>
             </div>

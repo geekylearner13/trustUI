@@ -35,7 +35,7 @@ const menuBtn= document.querySelector(".menu-btn");
                 sliderNav(i);
             });
         });
-        let title = "Brahmdeo Shah Memorial Trust ";
+        let title = "Brahamdeo Shah Memorial Trust ";
 let speed = 200; // Adjust scrolling speed in milliseconds
 
 function scrollTitle() {
@@ -53,6 +53,9 @@ window.addEventListener("scroll", function() {
         navbar.classList.remove("scrolled");
     }
 });
+function redirect() {
+    window.location.href = "donate.html";
+  }
 
 
 
@@ -60,6 +63,8 @@ window.addEventListener("scroll", function() {
 function openPopup() {
     var overlay = document.getElementById("overlay");
     var popup = document.querySelector(".popup");
+    document.body.classList.add("no-scroll");
+    
 
     overlay.style.display = "block";
     setTimeout(() => {
@@ -89,14 +94,42 @@ function closePopup() {
                 alert("Please enter a valid donation amount.");
                 return;
             }
+            // var options = {
+    //     "key": "YOUR_RAZORPAY_KEY_ID", // Replace with your Razorpay Key ID
+    //     "amount": 50000, // Amount in paise (e.g., ₹500)
+    //     "currency": "INR",
+    //     "name": "Bramhdeo Sah Memorial Trust",
+    //     "description": "Donation",
+    //     "image": "https://yourtrust.org/logo.png", // optional
+    //     "handler": function (response){
+    //         alert("Donation successful! Payment ID: " + response.razorpay_payment_id);
+    //     },
+    //     "prefill": {
+    //         "name": "",
+    //         "email": "",
+    //         "contact": ""
+    //     },
+    //     "theme": {
+    //         "color": "#3399cc"
+    //     },
+    //     "method": {
+    //         "upi": true,
+    //         "card": false,
+    //         "netbanking": false
+    //     }
+    // };
+    // var rzp = new Razorpay(options);
+    // rzp.open();
+    // e.preventDefault();
 
             var options = {
                 "key": "rzp_test_qR7WCfWyGVdGiJ", // Replace with your Razorpay API key
                 "amount": userAmount * 100, // Convert INR to paise
                 "currency": "INR",
-                "name": "Brahmdeo Sah Memorial Trust",
+                "name": "Brahamdeo Sah Memorial Trust",
                 "description": "Support our cause",
-                "image": "https://your-logo-url.com", // Optional
+                "image": "https://geekylearner13.github.io/trustUI/assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png", // Optional
+                
                 "handler": function (response){
                     alert("Payment Successful! Payment ID: " + response.razorpay_payment_id);
                 },
@@ -104,6 +137,11 @@ function closePopup() {
                     "name": document.getElementById("name").value,
                     "email": document.getElementById("email").value,
                     "contact": document.getElementById("phone").value
+                },
+                "method": {
+                    "upi": true,
+                    "card": true,
+                    "netbanking": true
                 },
                 "theme": {
                     "color": "#3399cc"
@@ -113,3 +151,7 @@ function closePopup() {
             var rzp = new Razorpay(options);
             rzp.open();
         }
+
+
+
+        
