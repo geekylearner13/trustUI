@@ -794,6 +794,7 @@ header .navigation .navigation-items a:hover:before{
     }
     
     .toast {
+        display: none;
         right: 10px;
         left: 10px;
         max-width: none;
