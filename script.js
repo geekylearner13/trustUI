@@ -142,3 +142,11 @@ window.addEventListener("scroll", function() {
 function redirect() {
     window.location.href = "donate.html";
   }
+function redirectToHealthcare(){
+    window.location.href = "healthcare.html"
+} 
+
+
+function redirectToEducation(){
+    window.location.href = "harmony.html"
+}  

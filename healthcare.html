@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahmadeo Sah Memorial Trust - Healthcare Initiatives</title>
+    <meta name="description" content="Healthcare initiatives by Brahmadeo Sah Memorial Trust">
+    <meta name="author" content="Brahmadeo Sah Memorial Trust">
+    <link rel="stylesheet" href="healthcare.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/0f40301e29.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e11d48'><path d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/></svg>">
+</head>
+<body>
+    <!-- Navigation Header -->
+     <header>
+        <a href="index.html" class="brand"><img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt=""> <h3>Brahamdeo sah <br><span>memorial trust</span></h3></a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="index.html">HOME</a>
+            <a href="ourWork.html">OUR WORK</a>
+            <a href="getInvolved.html">GET INVOLVED</a>
+            <a href="aboutUS.html">ABOUT US</a>   
+            <a href="contact.html">CONTACT US</a>
+            <!-- <a href="">GALA</a> -->
+            <button class="button-57" onclick="redirect()" role="button"><span class="text">Donate <i class="fa-solid fa-heart"></i></span><span>Help Others</span></button>     
+        </div>
+        </div>
+    </header>
+    <!-- <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <svg class="heart-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+                <span class="brand-text">Brahmadeo Sah Memorial Trust</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <button class="nav-link" onclick="scrollToSection('hero')">Home</button>
+                <button class="nav-link" onclick="scrollToSection('programs')">Programs</button>
+                <button class="nav-link" onclick="scrollToSection('urology')">Urology Camp</button>
+                <button class="nav-link" onclick="scrollToSection('gallery')">Gallery</button>
+                <button class="nav-link" onclick="scrollToSection('contact')">Contact</button>
+            </div>
+            <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Healthcare Initiatives</h1>
+            <p class="hero-subtitle">Accessible care for every community</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('programs')">
+                    Explore Programs
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('urology')">
+                    Free Urology Camp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Health Programs Section -->
+    <section id="programs" class="programs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Weekly Health Programs</h2>
+                <p class="section-subtitle">
+                    Comprehensive healthcare services designed to serve our community with dedication and expertise
+                </p>
+            </div>
+            
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">General Check-ups</h3>
+                    <p class="program-description">Comprehensive health screenings for early detection and prevention</p>
+                    <ul class="program-features">
+                        <li>Blood Pressure</li>
+                        <li>Diabetes Screening</li>
+                        <li>Basic Vitals</li>
+                        <li>Health Consultation</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2M4 1v3h14V1H4M4 8.5c0-.83.67-1.5 1.5-1.5S7 7.67 7 8.5 6.33 10 5.5 10 4 9.33 4 8.5M5.5 12c-.83 0-1.5.67-1.5 1.5S4.67 15 5.5 15s1.5-.67 1.5-1.5S6.33 12 5.5 12"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Health Awareness Sessions</h3>
+                    <p class="program-description">Educational programs on preventive healthcare and wellness</p>
+                    <ul class="program-features">
+                        <li>Nutrition Education</li>
+                        <li>Disease Prevention</li>
+                        <li>Mental Health</li>
+                        <li>Community Workshops</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 8h-2v3h-3v2h3v3h2v-3h3v-2h-3V8M12 15c-2.7 0-5.8 1.29-6 2.01V18h12v-.99c-.2-.72-3.3-2.01-6-2.01M12 2C9.79 2 8 3.79 8 6s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Mobile Health Units</h3>
+                    <p class="program-description">Bringing healthcare directly to underserved communities</p>
+                    <ul class="program-features">
+                        <li>Remote Areas</li>
+                        <li>Home Visits</li>
+                        <li>Emergency Care</li>
+                        <li>Follow-up Services</li>
+                    </ul>
+                </div>
+
+                <!-- <div class="program-card">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Chronic Care Follow-ups</h3>
+                    <p class="program-description">Ongoing support for patients with long-term health conditions</p>
+                    <ul class="program-features">
+                        <li>Medication Management</li>
+                        <li>Regular Monitoring</li>
+                        <li>Lifestyle Counseling</li>
+                        <li>Specialist Referrals</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Saturday Urology Camp Section -->
+    <section id="urology" class="urology-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Saturday Urology Camp</h2>
+                <p class="section-subtitle green">FREE Uroflowmetry & PSA Tests Every Saturday</p>
+            </div>
+
+            <div class="urology-content">
+                <!-- Doctor Profile -->
+                <div class="doctor-profile">
+                    <div class="doctor-card">
+                        <div class="doctor-header">
+                            <img src="assets/abhay_profile.jpeg" 
+                                 alt="Dr. Abhay Kumar" class="doctor-image">
+                            <div class="doctor-info">
+                                <h3 class="doctor-name">Dr. Abhay Kumar</h3>
+                                <p class="doctor-title">Senior Consultant Urologist</p>
+                                <p class="doctor-specialty">Robotic Surgeon</p>
+                            </div>
+                        </div>
+                        
+                        <div class="doctor-credentials">
+                            <div class="credential">
+                                <svg class="credential-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <span>15+ Years Experience</span>
+                            </div>
+                            <div class="credential">
+                                <svg class="credential-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M19 8h-2v3h-3v2h3v3h2v-3h3v-2h-3V8M12 15c-2.7 0-5.8 1.29-6 2.01V18h12v-.99c-.2-.72-3.3-2.01-6-2.01"/>
+                                </svg>
+                                <span>Robotic Surgery Expert</span>
+                            </div>
+                        </div>
+
+                        <h4 class="conditions-title">Conditions Treated:</h4>
+                        <div class="conditions-grid">
+                            <div class="condition">Enlarged Prostate</div>
+                            <div class="condition">Prostate Cancer</div>
+                            <div class="condition">Hematuria</div>
+                            <div class="condition">Urinary Obstruction</div>
+                            <div class="condition">Kidney Stones</div>
+                            <div class="condition">Bladder Issues</div>
+                        </div>
+
+                        <!-- <button class="btn btn-primary btn-full">
+                            Book Your Free Consultation
+                        </button> -->
+                    </div>
+                </div>
+
+                <!-- Clinic Information -->
+                <div class="clinic-info">
+                    <div class="clinic-card">
+                        <h4 class="clinic-title">Kolkata Urology Clinic</h4>
+                        
+                        <div class="clinic-details">
+                            <div class="detail-item">
+                                <svg class="detail-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                                <div>
+                                    <p class="detail-main">87/1 P. Majumdar Rd., Kasba (Indu Park)</p>
+                                    <p class="detail-sub">Near Acropolis Mall, Kolkata – 700107</p>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <svg class="detail-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                </svg>
+                                <span>8100557980</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <svg class="detail-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                                </svg>
+                                <span>Every Saturday, 10:00 AM - 12:00 PM</span>
+                            </div>
+                        </div>
+
+                        <img src="assets/trust_work.jpeg" 
+                             alt="Kolkata Urology Clinic" class="clinic-image">
+
+                        <div class="map-placeholder">
+                            <svg class="map-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <p>Interactive Map Location</p>
+                            <p class="map-sub">Near Acropolis Mall, Kolkata</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Healthcare Journey</h2>
+                <p class="section-subtitle">
+                    Moments from our community health initiatives and medical camps
+                </p>
+            </div>
+
+            <!-- Image Carousel -->
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <img src="assets/trust_work.jpeg" 
+                             alt="Community Health Camp - General Checkups">
+                        <div class="carousel-caption">
+                            <p>Urology Consultation</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/partner.jpeg" 
+                             alt="Mobile Health Unit Outreach">
+                        <div class="carousel-caption">
+                            <p>Community Engagement</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/healthCare.jpeg" 
+                             alt="Health Awareness Session">
+                        <div class="carousel-caption">
+                            <p>Health Awareness Session</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/healthService.jpeg" 
+                             alt="Urology Consultation">
+                        <div class="carousel-caption">
+                            <p>Community Health Camp - General Checkups</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/partnerr.jpeg" 
+                             alt="Community Engagement">
+                        <div class="carousel-caption">
+                            <p>Community Engagement</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/WhatsApp Image 2025-06-01 at 19.56.26.jpeg" 
+                             alt="Medical Equipment Setup">
+                        <div class="carousel-caption">
+                            <p>Health Awareness Session</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn carousel-btn-prev" onclick="changeSlide(-1)">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                    </svg>
+                </button>
+                
+                <button class="carousel-btn carousel-btn-next" onclick="changeSlide(1)">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Thumbnail Grid -->
+            <div class="thumbnail-grid">
+                <div class="thumbnail" onclick="openModal(0)">
+                    <img src="assets/healthcare/healthcare-consulting.jpeg" 
+                         alt="Community Health Camp">
+                    <div class="thumbnail-overlay">
+                        <span>View</span>
+                    </div>
+                </div>
+                <div class="thumbnail" onclick="openModal(1)">
+                    <img src="assets/clinic-logo.jpeg" 
+                         alt="Mobile Health Unit">
+                    <div class="thumbnail-overlay">
+                        <span>View</span>
+                    </div>
+                </div>
+                <div class="thumbnail" onclick="openModal(2)">
+                    <img src="assets/healthcare/healthcare-camp.jpeg" 
+                         alt="Health Awareness">
+                    <div class="thumbnail-overlay">
+                        <span>View</span>
+                    </div>
+                </div>
+                <div class="thumbnail" onclick="openModal(3)">
+                    <img src="assets/healthcare/healthcare-pics.jpeg" 
+                         alt="Urology Consultation">
+                    <div class="thumbnail-overlay">
+                        <span>View</span>
+                    </div>
+                </div>
+                <div class="thumbnail" onclick="openModal(4)">
+                    <img src="assets/healthcare/healtcare-pic.jpeg" 
+                         alt="Community Engagement">
+                    <div class="thumbnail-overlay">
+                        <span>View</span>
+                    </div>
+                </div>
+                <div class="thumbnail" onclick="openModal(5)">
+                    <img src="assets/healthcare/healthcare-adv.jpeg" 
+                         alt="Medical Equipment">
+                    <div class="thumbnail-overlay">
+                        <span>View</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">
+                    Reach out for healthcare services or to support our mission
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                    <h3>Call Us</h3>
+                    <p>+91-8100557980</p>
+                    <p>+91-6291766746</p>
+                    <!-- <p>Emergency: +91-XXX-XXX-XXXX</p> -->
+                </div>
+                
+                <div class="contact-item">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    <h3>Email Us</h3>
+                    <p>bdsmt2022@gmail.com</p>
+                    <!-- <p>healthcare@brahmsahtrust.org</p> -->
+                </div>
+                
+                <div class="contact-item">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    <h3>Visit Us</h3>
+                    <!-- <p>Main Office Address</p> -->
+                    <p>Healthcare Center Location</p>
+                    <p>87/1 P. Majumdar Rd., Kasba (Indu Park) Near Acropolis Mall, Kolkata – 700107</p>
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <h3>Newsletter Signup</h3>
+                <p>Stay updated with our latest healthcare initiatives</p>
+                <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                        <div class="logo-widget footer-widget">
+                            <figure class="logo-box"><a href="#"><img src="assets/Brahamdeo_Sah_Memorial_Trust-removebg-preview.png" alt=""></a></figure>
+                            <div class="text">
+                                <p>Brahamdeo Sah Memorial Trust empowers individuals through education, healthcare, and self-sufficiency. We believe knowledge drives progress, health strengthens society, and empowerment builds resilience. Our initiatives inspire change, uplift communities, and promote sustainable development. Together, we can shape a better future.</p>
+                            </div>
+                            <ul class="footer-social">
+                                <li><a href="https://www.facebook.com/people/Brahamdeo-Sah-Memorial-Trust/61552250626600/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/Brahamdeosahmemorialtrust?igsh=MTl1ZHl0ejc1djlmaQ=="><i class="fa-brands fa-instagram"></i></a></li>
+                                <!-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="footer-title">Quick Links</div>
+                            <ul class="list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="getInvolved.html">Get Involved</a></li>
+                                <li><a href="aboutUS.html">About Us</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Gala</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+                        <div class="contact-widget footer-widget">
+                            <div class="footer-title">Contacts</div>
+                            <div class="text contact-details">
+                                <p><i class="fa-solid fa-location-dot"></i>Communication Address: 5 , Gitanjali Park 1st Street , Kalikapur , Kolkata – 700099</p>
+                                <p><i class="fa-solid fa-phone"></i>+91 3335565651</p>
+                                <p><i class="fa-solid fa-mobile"></i>+91 9835773227</p>
+                                <p><i class="fa-solid fa-envelope"></i>bdsmt2022@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- main-footer end -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                    <div class="copyright"><a href="#">Brahamdeo Sah Memorial Trust</a> &copy; 2025 All Right Reserved</div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                    <ul class="footer-nav">
+                        <!-- <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Gallery -->
+    <div id="galleryModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+            </button>
+            <img id="modalImage" src="" alt="" class="modal-image">
+            <div class="modal-caption">
+                <p id="modalCaption"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="healthcare.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
