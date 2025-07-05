@@ -363,6 +363,6 @@ window.addEventListener("scroll", function() {
 });
 
 // Console greeting
-console.log('🏥 Brahmadeo Sah Memorial Trust Healthcare Website');
+console.log('🏥 Brahamdeo  Sah Memorial Trust Healthcare Website');
 console.log('Built with HTML, CSS, and JavaScript');
 console.log('For technical support, contact the development team.');
