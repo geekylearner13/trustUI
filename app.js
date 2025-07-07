@@ -35,7 +35,7 @@ const menuBtn= document.querySelector(".menu-btn");
                 sliderNav(i);
             });
         });
-        let title = "Brahamdeo Shah Memorial Trust ";
+        let title = "Brahamdeo Sah Memorial Trust ";
 let speed = 200; // Adjust scrolling speed in milliseconds
 
 function scrollTitle() {
