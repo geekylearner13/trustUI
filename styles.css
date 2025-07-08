@@ -973,13 +973,19 @@ button{
 }
 .card-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 1rem;
     color: #1f2937;
 }
 .events:hover .card-title{
     color: #2BA2A1;
+}
+.card-img img{
+     transition: transform 0.7s ease;
+}
+.events:hover .card-img img{
+    transform: scale(1.1);
 }
 .card-description {
     color: #6b7280;

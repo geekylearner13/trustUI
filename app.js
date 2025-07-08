@@ -35,16 +35,16 @@ const menuBtn= document.querySelector(".menu-btn");
                 sliderNav(i);
             });
         });
-        let title = "Brahamdeo Sah Memorial Trust ";
-let speed = 200; // Adjust scrolling speed in milliseconds
+//         let title = "Brahamdeo Sah Memorial Trust ";
+// let speed = 200; // Adjust scrolling speed in milliseconds
 
-function scrollTitle() {
-    document.title = title;
-    title = title.substring(1) + title.charAt(0); // Shift characters
-    setTimeout(scrollTitle, speed);
-}
+// function scrollTitle() {
+//     document.title = title;
+//     title = title.substring(1) + title.charAt(0); // Shift characters
+//     setTimeout(scrollTitle, speed);
+// }
 
-scrollTitle();
+// scrollTitle();
 window.addEventListener("scroll", function() {
     var navbar = document.querySelector("header");
     if (window.scrollY > 50) { // Adjust scroll threshold as needed
