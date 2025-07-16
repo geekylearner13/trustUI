@@ -921,6 +921,7 @@ button{
 .event-img{
     height: 415px;
     width: 240px;
+    image-rendering: auto;
 }
 .events img:hover{
     transition: all 0.5s ease;
